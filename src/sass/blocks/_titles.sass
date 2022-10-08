@@ -1,11 +1,23 @@
 .title
     font-family: 'Inter'
     font-weight: 700
-    font-size: 44px
+    font-size: 42px
     line-height: 50px
     color: $main-color
+    span
+        color: $second-color
+    &_direction
+        &_right
+            text-align: right
+        &_center
+            text-align: center
+        &_left
+            text-align: left    
+    &_size
+        &_44
+            font-size: 44px
 
-.descr
+/* .descr
     margin-top: 19px
     font-size: 18px
     line-height: 22px
@@ -13,3 +25,30 @@
     &_mini
         margin: 0
         font-size: 16px
+    &_center
+        text-align: center
+    &_mt
+        margin-top: 32px */
+.descr
+    font-size: 16px
+    line-height: 22px
+    color: #8476AA
+    &_direction
+        &_right
+            text-align: right
+        &_center
+            text-align: center
+        &_left
+            text-align: left
+    &_margin
+        &_13
+            margin-top: 13px
+        &_16
+            margin-top: 16px
+        &_19
+            margin-top: 19px
+        &_32
+            margin-top: 32px
+    &_size
+        &_18
+            font-size: 18px
