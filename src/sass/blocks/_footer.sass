@@ -1,0 +1,49 @@
+.footer
+    min-height: 555px
+    padding: 46px 0 80px 0
+    background: url('../../img/footer_bg.svg') center (center/cover) no-repeat
+    &__wrapper
+        display: flex
+        justify-content: space-between
+    &__social 
+        width: 152px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        &-item 
+            display: flex
+            justify-content: center
+            align-items: center
+            width: 40px
+            height: 40px
+            background-color: #3C3E7D
+            border-radius: 100%
+    &__links
+        margin-top: 94px
+        display: flex
+        justify-content: space-between
+    &__link
+        list-style-type: none
+        li
+            margin: 8px 0 
+            &:first-child
+                margin-bottom: 25px
+                font-weight: 700
+        a   
+            font-size: 12px
+            /* font-weight: 400 */
+            letter-spacing: 2px
+            text-transform: uppercase
+            color: #fff
+            text-decoration: none
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)
+            transition: 0.5s all
+            &:hover
+                color: $second_color
+    &__about
+        display: flex
+        justify-content: center
+        margin-top: 120px
+        div
+            color: #8D8D8D
+            margin: 0 17px
